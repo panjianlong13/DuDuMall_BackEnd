@@ -17,5 +17,5 @@ SpringCloud全家桶商城网站，没想到啥好名字，暂时就用我女儿
 
 ### 第四阶段： 
 * 前端:前端优化 移动端
-* 后端:容器化 ELK日志系统 Zipken链路分析 监控报警系统
+* 后端:容器化 ELK日志系统 Zipken链路分析 监控报警系统 支付模块
 ![Image text](https://raw.githubusercontent.com/panjianlong13/DuDuMall/master/img/%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
