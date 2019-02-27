@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "thirdpatry.user",
+    "type": "java.lang.String",
+    "description": "A description for 'thirdpatry.user'"
+  },
+  {
+    "name": "thirdpatry.password",
+    "type": "java.lang.String",
+    "description": "A description for 'thirdpatry.password'"
+  }
+]}

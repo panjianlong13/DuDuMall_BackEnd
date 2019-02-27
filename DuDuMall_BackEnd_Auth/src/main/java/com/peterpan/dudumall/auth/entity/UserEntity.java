@@ -1,4 +1,4 @@
-package com.peterpan.dudumall.user.entity;
+package com.peterpan.dudumall.auth.entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -24,10 +24,10 @@ public class UserEntity {
 	@Field
 	private String mobile;
 	@Field
-	private String country; 
+	private String country;
 	@Field
-	private String province; 
+	private String province;
 	@Field
 	private String city;
-	
+
 }

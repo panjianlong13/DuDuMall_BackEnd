@@ -1,4 +1,4 @@
-package com.peterpan.dudumall.user.service;
+package com.peterpan.dudumall.auth.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
@@ -7,9 +7,9 @@ import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
 
-import com.peterpan.dudumall.user.entity.UserEntity;
-import com.peterpan.dudumall.user.repository.UserRepository;
-import com.peterpan.dudumall.user.util.ResultCode;
+import com.peterpan.dudumall.auth.entity.UserEntity;
+import com.peterpan.dudumall.auth.repository.UserRepository;
+import com.peterpan.dudumall.auth.util.ResultCode;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -33,14 +33,20 @@ public class UserService {
 		return user;
 	}
 
+	public UserEntity findByUserName(String username) {
+		Query query = new Query(Criteria.where("username").is(username));
+		UserEntity userEntity = mongoTemplate.findOne(query, UserEntity.class);
+		if (userEntity == null) {
+            return null;
+		}
+        return userEntity;
+	}
+	
 	public UserEntity updateByUserId(String userid, UserEntity userEntity) {
 		Query query = new Query(Criteria.where("userid").is(userid));
 		Update update = new Update();
 		update.set("username", userEntity.getUsername());
 		update.set("mobile", userEntity.getMobile());
-		update.set("password", userEntity.getPassword());
-		update.set("role", userEntity.getRole());
-		update.set("permission", userEntity.getermission());
 		update.set("country", userEntity.getCountry());
 		update.set("province", userEntity.getProvince());
 		update.set("city", userEntity.getCity());

@@ -1,2 +1,2 @@
-docker build -t dudumall-merchandise .
-docker run -d --name dudumall-merchandise -p 8081:8081 dudumall-merchandise
+docker build -t dudumall-backend-merchandise .
+docker run -d --name dudumall-backend-merchandise -p 8081:8081 dudumall-backend-merchandise
