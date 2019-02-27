@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.peterpan.dudumall.merchandise.entity.MerchandiseEntity;
 import com.peterpan.dudumall.merchandise.repository.MerchandiseRepository;
-import com.peterpan.dudumall.merchandiseutil.ResultCode;
+import com.peterpan.dudumall.merchandise.util.ResultCode;
 
 import lombok.extern.slf4j.Slf4j;
 

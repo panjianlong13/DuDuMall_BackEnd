@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.peterpan.dudumall.merchandise.entity.MerchandiseEntity;
 import com.peterpan.dudumall.merchandise.service.MerchandiseService;
-import com.peterpan.dudumall.merchandiseutil.JsonResult;
-import com.peterpan.dudumall.merchandiseutil.ResultCode;
+import com.peterpan.dudumall.merchandise.util.JsonResult;
+import com.peterpan.dudumall.merchandise.util.ResultCode;
 
 import lombok.extern.slf4j.Slf4j;
 

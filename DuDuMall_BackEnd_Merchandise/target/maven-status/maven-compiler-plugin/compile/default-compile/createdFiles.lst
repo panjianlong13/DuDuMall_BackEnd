@@ -1,0 +1,7 @@
+com/peterpan/dudumall/merchandise/DuDuMallBackEndMerchandiseApplication.class
+com/peterpan/dudumall/merchandise/entity/MerchandiseEntity.class
+com/peterpan/dudumall/merchandise/repository/MerchandiseRepository.class
+com/peterpan/dudumall/merchandise/service/MerchandiseService.class
+com/peterpan/dudumall/merchandise/util/JsonResult.class
+com/peterpan/dudumall/merchandise/controller/MerchandiseController.class
+com/peterpan/dudumall/merchandise/util/ResultCode.class
