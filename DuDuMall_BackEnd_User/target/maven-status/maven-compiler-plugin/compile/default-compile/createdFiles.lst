@@ -1,0 +1,7 @@
+com/peterpan/dudumall/user/DuDuMallBackEndUserApplication.class
+com/peterpan/dudumall/user/util/JsonResult.class
+com/peterpan/dudumall/user/repository/UserRepository.class
+com/peterpan/dudumall/user/util/HttpRequest.class
+com/peterpan/dudumall/user/util/ResultCode.class
+com/peterpan/dudumall/user/util/HttpRequest$MyX509TrustManager.class
+com/peterpan/dudumall/user/entity/UserEntity.class

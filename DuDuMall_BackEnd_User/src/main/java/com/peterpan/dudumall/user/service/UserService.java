@@ -40,7 +40,7 @@ public class UserService {
 		update.set("mobile", userEntity.getMobile());
 		update.set("password", userEntity.getPassword());
 		update.set("role", userEntity.getRole());
-		update.set("permission", userEntity.getermission());
+		update.set("permission", userEntity.getPermission());
 		update.set("country", userEntity.getCountry());
 		update.set("province", userEntity.getProvince());
 		update.set("city", userEntity.getCity());
